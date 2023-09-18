@@ -16,6 +16,8 @@ public class StaffController {
         staffList.add(new Staff(2, "Hoang", "Accounting", 400));
         staffList.add(new Staff(3, "Le", "Station", 250));
         staffList.add(new Staff(4, "Thanh", "BOD", 700));
+        //new line
+        staffList.add(new Staff(5, "Son", "BOD", 700));
     }
 
     @GetMapping()
